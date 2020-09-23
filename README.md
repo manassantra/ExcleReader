@@ -1,5 +1,5 @@
 # ExcleReader
-
+Use this app you can read excle file data in table view and convert it into json format.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server
