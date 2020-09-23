@@ -1,0 +1,22 @@
+<p class="text-center">UPLOAD EXCLE FILE</p>
+<div class="container-fluid justify-content-center text-center">
+    <div class="card">
+        <div class="card-body">
+          <form action="">
+            <input class="inline" type="file" (change)="onFileChange($event)" multiple="false" /> &nbsp;
+          </form>
+        </div>
+    </div>
+    <div class="container-fluid justify-content-center">
+        <table class="table table-bordered table-hover table-responsive-lg text-center">
+            <tbody>
+                <tr *ngFor="let row of data">
+                        <td *ngFor="let cell of row">
+                                {{cell}}
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>
+  
